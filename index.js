@@ -3,7 +3,7 @@ const getQuotesContent = require('@desco/get-quotes-content')
 
 const sqlInline = sql => {
     let newSql = sql.split(`\n`).join(' ').trim()
-    const quoted = getQuotesContent(newSql)
+    const quoted = getQuotesContent(newSql, true)
 
     quoted.map(q => {
         newSql = newSql.replace(q, '[ToReplace]')

@@ -1,6 +1,6 @@
 {
   "name": "@desco/sql-inline",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Display SQL inline",
   "author": "Rafael A. R. Dias <contato@diasrafael.com.br>",
   "repository": {
@@ -10,7 +10,7 @@
   "private": false,
   "license": "ISC",
   "dependencies": {
-    "@desco/get-quotes-content": "^1.0.0",
+    "@desco/get-quotes-content": "^1.2.0",
     "replaceall": "^0.1.6"
   }
 }
